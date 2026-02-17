@@ -92,29 +92,30 @@ $$
 f_{Iter\_ADD1}(p) = 2*p^2 + 36*p^3 + 360*p^4 + O(p^5 )
 $$
 
-![image-20260215095707320](C:\Users\zhaox\AppData\Roaming\Typora\typora-user-images\image-20260215095707320.png)
+![image-20260215095707320](pictures/image-20260215095707320.png)
 
 $$
 f_{Iter\_COPY1}(p) = 9*p^2 + 72*p^3 + 258*p^4 + O(p^5 )
 $$
-![image-20260215095759170](C:\Users\zhaox\AppData\Roaming\Typora\typora-user-images\image-20260215095759170.png)
+![image-20260215095759170](pictures/image-20260215095759170.png)
 
 $$
 f_{Iter\_MUL1}(p) = 26*p^2 + 924*p^3 + 15246*p^4 + O(p^5 )
 $$
-![image-20260215095858122](C:\Users\zhaox\AppData\Roaming\Typora\typora-user-images\image-20260215095858122.png)
+![image-20260215095858122](pictures/image-20260215095858122.png)
 
 $$
 f_{Iter\_ADD2}(p) = 2*p^3 + 72*p^4 + 1302*p^5 + O(p^6 )
 $$
-![image-20260215103729115](C:\Users\zhaox\AppData\Roaming\Typora\typora-user-images\image-20260215103729115.png)
+![image-20260215103729115](pictures/image-20260215103729115.png)
 
 $$
 f_{Iter\_COPY2}(p) = 27*p^3 + 567*p^4 + 5697*p^5 + O(p^6 )
 $$
-![image-20260215103808263](C:\Users\zhaox\AppData\Roaming\Typora\typora-user-images\image-20260215103808263.png)
+![image-20260215103808263](pictures/image-20260215103808263.png)
 
 $$
 f_{Iter\_MUL2}(p) = 257*p^3 + 20198*p^4 + 778281*p^5 + O(p^6 )
 $$
-![image-20260215115832711](C:\Users\zhaox\AppData\Roaming\Typora\typora-user-images\image-20260215115832711.png)
+
+![image-20260215115832711](pictures/image-20260215115832711.png)
