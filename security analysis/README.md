@@ -1,5 +1,10 @@
 This project provides a SageMath code implementation of basic gadgets for constructing iterable masked gadgets, including six fundamental operations: addition, copy, and multiplication (each supporting both 2-share and 3-share). Additionally, the project offers the open-source VRAPS tool for evaluating the security of these basic gadgets under random probing attacks.
 
+> [Random Probing Security: Verification, Composition, Expansion and New Constructions](https://eprint.iacr.org/2020/786)  
+> By Sonia Belaïd, Jean-Sébastien Coron, Emmanuel Prouff, Matthieu Rivain and Abdul Rahman Taleb 
+> In the proceedings of CRYPTO 2020.
+
+
 File Structure Description：
 
 **basic gadget directory**:
@@ -123,5 +128,6 @@ f_{\mathrm{Iter\_MUL2}}(p) = 257*p^3 + 20198*p^4 + 778281*p^5 + O(p^6 )
 $$
 
 ![image-20260215115832711](pictures/image-20260215115832711.png)
+
 
 
