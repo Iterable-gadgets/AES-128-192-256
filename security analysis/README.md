@@ -74,7 +74,7 @@ Complexity (Nadd, Ncopy, Nmult, Nrand) = (4, 4, 0, 2)
 
 Coefficients represent the constant term in the failure probability at order 5.2; we take the approximation: 
 $$
-f_{\text{Iter\_COPY1}}(p) = 9*p^2 + 72*p^3 + 258*p^4 + O(p^5 )
+f_{\mathrm{Iter\_COPY1}}(p) = 9*p^2 + 72*p^3 + 258*p^4 + O(p^5 )
 $$
 The current calculation results for the 2-share COPY basic gadget correspond to formula (12) in the paper. For the full n-share COPY iterable gadget, its security requires further computational derivation based on subsequent formulas in the paper.
 
@@ -89,38 +89,39 @@ The table below presents the simulation failure probabilities for six basic gadg
 - **Multiplication gadget**：Iter-MUL1, Iter-MUL2
 
 $$
-f_{\text{Iter\_ADD1}}(p) = 2*p^2 + 36*p^3 + 360*p^4 + O(p^5 )
+f_{\mathrm{Iter\_ADD1}}(p) = 2*p^2 + 36*p^3 + 360*p^4 + O(p^5 )
 $$
 
 ![image-20260215095707320](pictures/image-20260215095707320.png)
 
 $$
-f_{\text{Iter\_COPY1}}(p) = 9*p^2 + 72*p^3 + 258*p^4 + O(p^5 )
+f_{\mathrm{Iter\_COPY1}}(p) = 9*p^2 + 72*p^3 + 258*p^4 + O(p^5 )
 $$
 
 ![image-20260215095759170](pictures/image-20260215095759170.png)
 
 $$
-f_{\text{Iter\_MUL1}}(p) = 26*p^2 + 924*p^3 + 15246*p^4 + O(p^5 )
+f_{\mathrm{Iter\_MUL1}}(p) = 26*p^2 + 924*p^3 + 15246*p^4 + O(p^5 )
 $$
 
 ![image-20260215095858122](pictures/image-20260215095858122.png)
 
 $$
-f_{\text{Iter\_ADD2}}(p) = 2*p^3 + 72*p^4 + 1302*p^5 + O(p^6 )
+f_{\mathrm{Iter\_ADD2}}(p) = 2*p^3 + 72*p^4 + 1302*p^5 + O(p^6 )
 $$
 
 ![image-20260215103729115](pictures/image-20260215103729115.png)
 
 $$
-f_{\text{Iter\_COPY2}}(p) = 27*p^3 + 567*p^4 + 5697*p^5 + O(p^6 )
+f_{\mathrm{Iter\_COPY2}}(p) = 27*p^3 + 567*p^4 + 5697*p^5 + O(p^6 )
 $$
 
 ![image-20260215103808263](pictures/image-20260215103808263.png)
 
 $$
-f_{\text{Iter\_MUL2}}(p) = 257*p^3 + 20198*p^4 + 778281*p^5 + O(p^6 )
+f_{\mathrm{Iter\_MUL2}}(p) = 257*p^3 + 20198*p^4 + 778281*p^5 + O(p^6 )
 $$
 
 ![image-20260215115832711](pictures/image-20260215115832711.png)
+
 
